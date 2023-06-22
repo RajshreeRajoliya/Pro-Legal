@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+
+  
+  
+  .side{
+    position: fixed;
+    width: 262px;
+    background-color: #FFFFFF;
+    margin-top: 6px;
+    height: 1472px;
+  }
+  
+  #sideName{
+    margin-top: 10%;
+    width: 210px; 
+    background-color: #FAF6E7;
+   border-radius: 1px 8px 8px 1px;
+  font-weight:700;
+  font-size: 14px;
+  padding: 8px;
+  border-left: 5px solid #E4C441;
+  
+  }
+ 

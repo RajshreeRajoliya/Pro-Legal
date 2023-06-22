@@ -1,0 +1,87 @@
+
+.App {
+    text-align: center;
+    padding: 1rem;
+ 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  .company-logo {
+    width: 80%;
+    height: 50px;
+    margin-right: 0.5rem;
+    background-color: #FFFFFF;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  .notification-bell {
+    width: 40px;
+    height: 30px;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  .user-image {
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+    background-color: #FFFFFF;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .user-status {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    background-color: #FFFFFF;
+  }
+  
+  .user-status-text {
+    width: 15px;
+   height: 10px;
+    background-color: #FFFFFF;
+    margin-right: 100%;
+  }
+  
+  .user-status-icon {
+    width: 12px;
+    height: 12;
+    background-color: #FFFFFF;
+  }  
