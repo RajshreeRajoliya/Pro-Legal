@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/RightContainer.css";
+import "../App.css"
 function RightContainer(props) {
   return (
     <div className="rightContainer">
@@ -107,7 +108,7 @@ function RightContainer(props) {
             </span>
           </div>
         </div>
-        
+        <button id="btn" onClick={()=>props.nextBtn()}>Next</button>
       </div>
 
 

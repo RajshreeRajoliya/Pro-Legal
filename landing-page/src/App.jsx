@@ -40,9 +40,9 @@ const App= () => {
       state={ele.state} country={ele.country} zipcode={ele.zipcode} phone_number={ele.phone_number}
       firm_speciality={ele.firm_speciality} case_management={ele.case_management} account_manager={ele.account_manager}
       new_user_invited={ele.new_user_invited} new_user_added={ele.new_user_added} payment_method_change={ele.payment_method_change}
-
+     nextBtn={nextPage}
      />
-     <button onClick={nextPage} id='btn'>Next</button>
+    
         </>
       })
      }
