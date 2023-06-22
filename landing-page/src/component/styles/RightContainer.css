@@ -1,0 +1,69 @@
+.rightContainer{
+  margin-left: 40px;
+  border: 2px solid rebeccapurple;
+margin-left:10%;
+margin-top: 10%;
+width: 1081.08px;
+height: 1229px;
+padding:0.5%;
+
+
+}
+#firstBox{
+  width: 736.37px;
+  height: 374px;
+}
+#firstBoxfirstDiv{
+   display: flex;
+   justify-content: flex-start;
+       gap: 20%
+}
+#firstBoxSecondDiv{
+   margin-top: 1%;
+   display: flex;
+   justify-content: flex-start;
+       gap: 20%
+}
+#firstBoxThirdDiv{
+margin-top: 1%;
+   display: flex;
+       justify-content: flex-start;
+           gap: 25%
+}
+#firstBoxFourthDiv{
+margin-top: 1%;
+
+       display: flex;
+       justify-content: flex-start;
+       gap: 25%
+}
+#SecondBox {
+   width: 75%;
+   height: 40%;
+}
+#SecondBoxfirstDiv{
+margin-top: 1%;
+       display: flex;
+       justify-content: flex-start;
+       gap:25%
+}
+#SecondBoxsecondDiv{
+margin-top: 1%;
+   display: flex;
+       justify-content: flex-start
+}
+.SecondBoxThirdDiv{
+   margin-top: 1%;
+   display: flex;
+       justify-content: flex-start
+}
+#SecondBoxFifthDiv{
+   margin-top: 1%;
+   display: flex;
+       justify-content: flex-start;
+       gap: 25%
+}
+#SecondBox{
+   width: 769.09px;
+   height: 402px;
+}

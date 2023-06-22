@@ -1,0 +1,22 @@
+{
+    "features": [
+      {
+        "id": 1,
+        "title": "Feature 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "icon-1.svg"
+      },
+      {
+        "id": 2,
+        "title": "Feature 2",
+        "description": "Praesent auctor libero ut nisl rutrum tincidunt.",
+        "icon": "icon-2.svg"
+      },
+      {
+        "id": 3,
+        "title": "Feature 3",
+        "description": "Sed eu magna at tellus placerat posuere.",
+        "icon": "icon-3.svg"
+      }
+    ]
+  }
