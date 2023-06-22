@@ -5,13 +5,13 @@
   
 
   
-  
   .side{
-    position: fixed;
+ 
     width: 262px;
     background-color: #FFFFFF;
     margin-top: 6px;
     height: 1472px;
+    padding-top: 1%;
   }
   
   #sideName{
