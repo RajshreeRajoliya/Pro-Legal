@@ -3,39 +3,45 @@ import "./styles/RightContainer.css";
 function RightContainer() {
   return (
     <div className="rightContainer">
-      <h1>Company Information</h1>
+
+    <div id="innerdiv">
+      <h1 id="heading">Company Information</h1>
+
       <div id="firstBox">
         <div id="firstBoxfirstDiv">
-          <div>
-            <p>Operating company</p>
-            <div>ProLegal Serve</div>
+          <div style={{background:"#FFFFFF"}}>
+            <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>Operating company</p>
+            
+
+
+            <div style={{background:"#FFFFFF",fontWeight:"bold" ,fontSize:"17px"}}>Pro Legal Serve</div>
           </div>
-          <div>
-            <p>Company type</p>
-            <div>B2B</div>
+          <div style={{background:"#FFFFFF"}}>
+          <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>Company type</p>
+          <div style={{background:"#FFFFFF",fontWeight:"bold" ,fontSize:"17px"}}>B2B</div>
           </div>
-          <div>
-            <p>Law firm or Bussiness Name</p>
-            <div>Flash</div>
+          <div style={{background:"#FFFFFF"}}>
+          <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>Law firm or buisness name</p>
+          <div style={{background:"#FFFFFF",fontWeight:"bold" ,fontSize:"17px"}}>Flash</div>
           </div>
         </div>
         <div id="firstBoxSecondDiv">
-          <div>
-            <p>Address 1</p>
-            <div>Compnay Address</div>
+          <div style={{background:"#FFFFFF"}}>
+            <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>Address 1</p>
+            <div style={{background:"#FFFFFF",fontWeight:"bold" ,fontSize:"17px"}}>Company Address</div>
           </div>
         </div>
         <div id="firstBoxThirdDiv">
-          <div>
-            <p>State</p>
+        <div style={{background:"#FFFFFF"}}>
+          <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>State</p>
             <div>ProLegal Serve</div>
           </div>
-          <div>
-            <p>City</p>
+          <div style={{background:"#FFFFFF"}}>
+          <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>City</p>
             <div>B2B</div>
           </div>
-          <div>
-            <p>Country</p>
+          <div style={{background:"#FFFFFF"}}>
+          <p style={{color:"#ADADAD" , background:"#FFFFFF"}}>Country</p>
             <div>Flash</div>
           </div>
         </div>
@@ -100,6 +106,7 @@ function RightContainer() {
             ------------------------------------------------------------------------------------------------------------------------
           </span>
         </div>
+      </div>
       </div>
     </div>
   );

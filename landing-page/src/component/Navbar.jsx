@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles/nav.css"
-const Navbar: React.FC = () => {
+const Navbar = (props) => {
   return (
     <header className="navbar">
       <div className="navbar-left">
@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
       <div className="navbar-right">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmmag3cBmYqrweGwrsL5h4RL5UqpSi9z275w&usqp=CAU" alt="Notification Bell" className="notification-bell" />
         <div className="user-profile">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Q3DfDE-53xq34AdBRXdK8YNJwLexzKQVRA&usqp=CAU" alt="User" className="user-image" />
-          <span className="user-name">John Deo</span>
+          <img src={props.pic} alt="User" className="user-image" />
+          <span className="user-name">{props.name}</span>
           <div className="user-status">
             <img src = "https://cdn-icons-png.flaticon.com/512/25/25623.png" className="user-status-text"></img>
             <svg

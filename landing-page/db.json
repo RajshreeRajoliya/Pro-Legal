@@ -1,22 +1,107 @@
+
 {
-    "features": [
+    "data": [
       {
         "id": 1,
-        "title": "Feature 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "icon": "icon-1.svg"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-tC1SVoshvTVawIAFCFJCyQOdOwE2tvgcQ&usqp=CAU",
+        "name": "Mahi",
+        "operating_company": "ABC Inc.",
+        "company_type": "Corporation",
+        "law_firm_or_business_name": "Law Firm XYZ",
+        "address1": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "zipcode": "10001",
+        "phone_number": "555-123-4567",
+        "firm_speciality": "Corporate Law",
+        "case_management": "Lawyer A",
+        "account_manager": "Jane Smith",
+        "new_user_invited": "john.doe@example.com",
+        "new_user_added": "jane.smith@example.com",
+        "payment_method_change": "john.doe@example.com"
       },
       {
         "id": 2,
-        "title": "Feature 2",
-        "description": "Praesent auctor libero ut nisl rutrum tincidunt.",
-        "icon": "icon-2.svg"
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWd30m-vbhtOHAMibRhe-32bEZTiMnnWngg&usqp=CAU" ,
+        "name": "Jane Smith",
+        "operating_company": "XYZ Corp.",
+        "company_type": "LLC",
+        "law_firm_or_business_name": "Smith & Associates",
+        "address1": "456 Oak St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "zipcode": "90001",
+        "phone_number": "555-987-6543",
+        "firm_speciality": "Intellectual Property",
+        "case_management": "Lawyer B",
+        "account_manager": "John Doe",
+        "new_user_invited": "jane.smith@example.com",
+        "new_user_added": "john.doe@example.com",
+        "payment_method_change": "jane.smith@example.com"
+      },
+    
+    {
+      "id": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyKIYXxQubsayPxMCKMkv5sticpGwqEziUA&usqp=CAU",
+      "name": "Robert Johnson",
+      "operating_company": "123 Corp.",
+      "company_type": "Partnership",
+      "law_firm_or_business_name": "Johnson & Johnson Law",
+      "address1": "789 Maple Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "zipcode": "60601",
+      "phone_number": "555-567-8901",
+      "firm_speciality": "Litigation",
+      "case_management": "Lawyer C",
+      "account_manager": "Emily Wilson",
+      "new_user_invited": "robert.johnson@example.com",
+      "new_user_added": "emily.wilson@example.com",
+      "payment_method_change": "robert.johnson@example.com"
+    },
+    {
+        "id": 4,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo8_u8XwRFCpu6W8DmiAuINZutk8W-Z7U26A&usqp=CAU",
+        "name": "Sarah Thompson",
+        "operating_company": "ABC Inc.",
+        "company_type": "Corporation",
+        "law_firm_or_business_name": "Thompson Law Group",
+        "address1": "246 Elm St",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "zipcode": "77002",
+        "phone_number": "555-456-7890",
+        "firm_speciality": "Family Law",
+        "case_management": "Lawyer D",
+        "account_manager": "Michael Johnson",
+        "new_user_invited": "sarah.thompson@example.com",
+        "new_user_added": "michael.johnson@example.com",
+        "payment_method_change": "sarah.thompson@example.com"
       },
       {
-        "id": 3,
-        "title": "Feature 3",
-        "description": "Sed eu magna at tellus placerat posuere.",
-        "icon": "icon-3.svg"
+        "id": 5,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvS4N6jyFlnsSHH3JsQg5lr2PfqfEZE0KcXQ&usqp=CAU",
+        "name": "David Wilson",
+        "operating_company": "XYZ Corp.",
+        "company_type": "LLC",
+        "law_firm_or_business_name": "Wilson Legal Solutions",
+        "address1": "789 Pine St",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA",
+        "zipcode": "98101",
+        "phone_number": "555-234-5678",
+        "firm_speciality": "Immigration Law",
+        "case_management": "Lawyer E",
+        "account_manager": "Samantha Davis",
+        "new_user_invited": "david.wilson@example.com",
+        "new_user_added": "samantha.davis@example.com",
+        "payment_method_change": "david.wilson@example.com"
       }
     ]
   }
+  
